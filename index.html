@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Cinta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+            background-color: #F4C2C2;
+        }
+        input {
+            padding: 10px;
+            margin: 10px;
+            width: 80%;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 20px;
+        }
+        .container {
+            width: auto;
+            height: auto;
+            background-color: #FFFDD0;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"><br>
+        <h1>Kalkulator Cinta</h1>
+            <div id="input-container">
+                <input type="text" id="name1" placeholder="Nama pertama">
+                <input type="text" id="name2" placeholder="Nama kedua"><br>
+                <button onclick="calculateLove()">Hitung Cinta</button>
+            </div>
+        <div id="result"></div><br>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
