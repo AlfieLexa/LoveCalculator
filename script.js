@@ -26,9 +26,7 @@ function calculateLove() {
         lovePercentage = 100;
     } else if ((name1 === 'alfie luxiona' && name2 === 'christy aurora') || (name1 === 'christy aurora' && name2 === 'alfie luxiona')) {
         lovePercentage = 100;
-    } else if ((name1 === 'raziq' && name2 === 'alby') || (name1 === 'alby' && name2 === 'raziq')) {
-    	lovePercentage = 100;
-  	} else {
+    } else {
         lovePercentage = Math.floor(Math.random() * 100) + 1;
     }
 
